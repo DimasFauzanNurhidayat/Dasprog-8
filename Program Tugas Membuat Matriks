@@ -1,0 +1,7 @@
+# Dasprog-8
+# Berisi kode pada praktikum dasprog 8
+# Tugas Matriks
+from numpy import *
+matriks = range(12)
+matriks = reshape(matriks, (4,3))
+print(matriks)
