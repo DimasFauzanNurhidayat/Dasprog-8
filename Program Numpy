@@ -1,0 +1,18 @@
+# Dasprog-8
+# Berisi kode pada praktikum dasprog 8
+# Program Numpy
+import numpy as np
+
+R = int(input("Enter the number of Rows : "))
+C = int(input("Enter the number of Columns : "))
+
+print("Enter the entries in a single line (separated by space) : ")
+
+# User input of entries in a 
+# Single line separated by space
+entries = list(map(int, input().split()))
+
+# For printing the matrix
+matrix = np.array(entries).reshape(R, C)
+print(matrix)
+
